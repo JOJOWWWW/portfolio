@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #dd86b0;
+    padding: 30px;
+    transition: 0.7s;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 50px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+nav a:hover {
+    color: #fccde0;
+}
+
+/* Contact Page */
+.contact-body {
+    background-color: #ffe0eb;
+}
+
+/* Sections */
+section {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns Name & Email to the left */
+}
+
+/* Labels (Name, Email) */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Name & Email Fields */
+input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 0px solid #ffb3d9;
+    border-radius: 10px;
+    background: #fff0f5;
+}
+
+/* Centering "Message" label */
+.message-container {
+    text-align: center;
+    width: 10%;
+}
+
+/* Message Box */
+#message {
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+    padding: 100px;
+    border: 0px #ffb3d9;
+    border-radius: 10px;
+    background: #fff0f5;
+    display: block;
+    margin: 0 auto; /* Centers the message box */
+}
+
+/* Send Button */
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ff8bba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+    margin: 10px auto; /* Centers the send button */
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+/* Center "My Location" */
+h2 {
+    text-align: center;
+}
+
+/* Google Maps Image */
+img {
+    display: block;
+    margin: 0 auto; /* Centers the map image */
+    width: 90%;
+    max-width: 900px;
+}

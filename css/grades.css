@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #dd86b0;
+    padding: 30px;
+    transition: 0.7s;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 100px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+nav a:hover {
+    color: #fccde0;
+}
+
+/* Grades Page */
+.grades-body {
+    background-color: #ffe6f5;
+}
+
+/* Sections */
+section {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff8bba;
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 0px solid #ffb3d9;
+    text-align: center;
+}
+
+th {
+    background-color: #d7a6b9;
+    color: white;
+}
